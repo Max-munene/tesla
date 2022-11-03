@@ -6,6 +6,9 @@ function Home() {
   return (
     <Container>
       <Section />
+      <Section />
+      <Section />
+      <Section />
     </Container>
   );
 }
@@ -13,6 +16,6 @@ function Home() {
 export default Home;
 
 const Container = styled.div`
-  height: 100vh;
-  width: 100vh;
+  height: 100%;
+  width: 100%;
 `;
